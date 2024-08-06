@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.quote {
+  background-color: #0a0a0a;
+}
+.inner-box {
+  background-color: #373737;
+  display: flex;
+  padding: 80px 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.copy-quote {
+  /* flex: 1; */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.copy-quote h3 {
+  font-size: 32px;
+}
+.copy-quote span,
+p {
+  color: #fff;
+}
+
+.copy-quote p {
+  align-self: flex-end;
+}
+
+.life-quote {
+  color: #000;
+  width: 460px;
+  line-height: 1.5;
+}

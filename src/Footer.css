@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.footer {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #0f7173;
+  position: relative;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #0a0a0a;
+  color: #fff;
+  position: relative;
+}
+.contactbox {
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -150px;
+  gap: 10px;
+  padding: 20px;
+  width: 600px;
+  height: 400px;
+  border-radius: 12px;
+  border: #373737 solid 1px;
+}
+.detail-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #373737;
+  padding: 20px;
+  height: 370px;
+  border-radius: 12px;
+  /* gap: 20px; */
+}
+
+.detail-box h3 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+.message-box {
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 12px;
+  /* gap: 35px; */
+}
+
+.message-box label {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.message-box textarea {
+  background-color: #373737;
+  resize: none;
+  border: none;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.msg-box {
+  width: 330px;
+  height: 270px;
+}
+
+.message-box textarea::placeholder {
+  color: #fff;
+}
+
+.message-box textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.detail-box input {
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  margin-bottom: 20px;
+  /* padding: 5px 0; */
+}
+
+.submitbtn {
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0 0 12px 12px;
+  background-color: #7ec1ae;
+  color: #002929;
+  border: none;
+}
+
+.inner-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+}
+
+.footer-main p {
+  color: #002929;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin: 20px;
+  padding-right: 20px;
+  border-right: 2px solid #002929;
+}
+.footer-rights {
+  font-size: 12px;
+}
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+.footer-icon a {
+  margin: 5px;
+}
+.f-mail {
+  font-size: 14px;
+  color: #002929;
+}

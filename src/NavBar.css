@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+.logo {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f7173;
+}
+
+.navCont {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.navItems a:link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navItems a:visited {
+  color: #fff;
+}
+.navItems a:active {
+  color: #fff;
+}
+.navItems a:hover {
+  color: #fff;
+}
+
+.navItems a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.navItems a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navItems a:hover::after {
+  transform: scaleX(1);
+}
+
+.ctaButton button {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.ctaButton button:hover {
+  color: #000;
+  background-color: #fff;
+}
